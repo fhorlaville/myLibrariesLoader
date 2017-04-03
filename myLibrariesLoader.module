@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ * @param array $attachments
+ */
+function myLibrariesLoader_page_attachments(array &$attachments) {
+    //add here any conditions if you need to limit the pages
+
+    $attachments['#attached']['library'][] = 'myLibrariesLoader/library_one';
+    $attachments['#attached']['library'][] = 'myLibrariesLoader/library_two';
+}
+

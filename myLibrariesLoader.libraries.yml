@@ -1,0 +1,11 @@
+library_one:
+  version: 1.x
+  js:
+    https://external.url.com/: { external: true, attributes: { defer: true, async: true, data-if-needed: 53952d } }
+
+library_two:
+  version: 1.x
+  js:
+    https://external.url2.org/library.js: { external: true, attributes: { defer: true, async: true } }
+
+
